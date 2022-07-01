@@ -34,7 +34,7 @@ display: flex;
 width: 1024px;
 margin: 0 auto;
 ${media.desktop`width: 768px`}
-${media.desktop`width: 100%`}
+${media.tablet`width: 100%`}
 `
 
 const Button = styled.button`
